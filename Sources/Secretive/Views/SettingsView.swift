@@ -21,10 +21,11 @@ struct GeneralSettingsView: View {
                         Text("None").tag(CommentStyle.none)
                     }
                     .pickerStyle(DefaultPickerStyle())
+                    // TODO: Add selected comment style from keychain
+                    CopyableView(title: "public_key_comment_style_label", image: Image(systemName: "touchid"), text: "ecdsa-sha2-nistp256 <your_public_key>")
                 }
         }
-        .padding(20)
-        .frame(width: 350, height: 100)
+        .padding(30)
         .navigationTitle("Settings")
     }
 }

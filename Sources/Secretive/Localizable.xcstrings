@@ -1807,6 +1807,9 @@
         }
       }
     },
+    "Default" : {
+
+    },
     "delete_confirmation_cancel_button" : {
       "localizations" : {
         "ca" : {
@@ -2837,6 +2840,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "不要自动验证"
+          }
+        }
+      }
+    },
+    "public_key_comment_style_label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comment Style Preview"
           }
         }
       }
